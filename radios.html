@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do YouTube em Pop-up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .video-link {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Abra um vídeo do YouTube</h1>
+<a href="#" class="video-link" onclick="openPopup('https://www.youtube.com/embed/dQw4w9WgXcQ')">Vídeo 1</a>
+<a href="#" class="video-link" onclick="openPopup('https://www.youtube.com/embed/tgbNymZ7vqY')">Vídeo 2</a>
+<!--class for="di">
+    <p><a href="https://www.cdrlog.com.br" target="popup" onclick="window.open('https://www.cdrlog.com.br','name','width=600,height=400')"for="">Cadastrar DI</a></p>
+</class-->
+
+<script>
+    function openPopup(videoUrl) {
+        const width = 1000;
+        const height = 800;
+        const left = (screen.width - width) / 2;
+        const top = (screen.height - height) / 2;
+
+        window.open(videoUrl, 'popup', `width=${width},height=${height},top=${top},left=${left}`);
+    }
+</script>
+
+</body>
+</html>

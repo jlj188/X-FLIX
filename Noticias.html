@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  
+  <title>Swiper demo</title>
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 73%;
+      
+    }
+
+    body {
+      background: #141414;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-button-next {
+        color: red;
+    }
+
+    .swiper-button-prev {
+        color: red;
+    }
+
+    .swiper-pagination {
+        color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">X-Flix</div>
+            <nav>
+                <ul>
+                    <li><a href="Aovivo.html">Ao-vivo</a></li>
+                    <li><a href="filmes.html">Filmes</a></li>
+                    <li><a href="series.html">Séries</a></li>
+                    <li><a href="Musicas.html">Musicas</a></li>
+                    <li><a href="Videos.html">Videos</a></li>
+                    <li><a href="sportes.html">Sports</a></li>
+                    <li><a href="tv.html">TV</a></li>
+                    <li><a href="Noticias.html">Noticias</a></li>
+                    <li><a href="radios.html">Radio</a></li>
+                    <li><a href="Jogos.html">Jogos</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <fieldset>
+      <section class="banner">
+        <div class="h1">
+          <h1>Noticias do Brasil e o mundo!</h1>
+        </div>
+          
+            <div class="search-box">
+              <input class="search-txt" type="text" name="" placeholder="Pesquisar no YouTube, ..."> 
+              <a class="search-btn" href="https://www.youtube.com/">
+                <i class="fas fa-search"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"></path></svg></div></i>
+              </a> 
+            </div>
+            
+          
+      </section>
+    </fieldset>
+    <hr>
+    <br>
+
+    <section class="destaque">
+        <h2>Principais Jornais do Brasil ao vivo</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/FvKPA40VCOc?si=4fD6tZxyjV5-rHgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+        </div>
+    </section>
+    <hr>
+    <br>
+
+    <section class="destaque">
+        <h2>Jornais SBT</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/w4mrJxXKv0g?si=B1tAvPwX539BbqeP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/ALdpyeVFrQc?si=YKKtzk36Txpnd2pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/FvKPA40VCOc?si=4fD6tZxyjV5-rHgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/wi4It5Fx3q8?si=LmZgAVK5M7cpRN-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/i5n9gcO28h8?si=nntpTxTBsEjh_9ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+        </div>
+    </section>
+    <hr>
+    <br>
+
+    <section class="destaque">
+        <h2>Jornais CNN</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+        </div>
+    </section>
+
+    <hr>
+    <br>
+
+    <section class="destaque">
+        <h2>Jornais Record</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+        </div>
+    </section>
+
+    <section class="destaque">
+      <h2>Jornais Band</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+          </div>
+      
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+              
+      </div>
+    </section>
+
+    <section class="destaque">
+      <h2>Jornais Globo</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+          </div>
+      
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+              
+      </div>
+    </section>
+
+    <section class="destaque">
+      <h2>Jornais </h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/niohQWTOJvM?si=KZybJS9dPKeFFEBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+          </div>
+      
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+              
+      </div>
+    </section>
+
+    <section class="destaque">
+      <h2>Jornais</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+              </div>
+          
+              <div class="swiper-slide">
+              </div>
+
+              <div class="swiper-slide">
+              </div>
+
+              <div class="swiper-slide">
+              </div>
+
+              <div class="swiper-slide">
+              </div>
+
+              <div class="swiper-slide">
+              </div>
+
+              <div class="swiper-slide">
+              </div>
+
+          </div>
+      
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+              
+      </div>
+      </section>
+
+
+    <br><br>
+    <footer>
+      <p>&copy; Noticias 2024. Todos os direitos reservados</p>
+    </footer>
+    <hr>
+    <br><br>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+<script>
+</script>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/slider.js"></script>
+
+</body>
+
+</html>
